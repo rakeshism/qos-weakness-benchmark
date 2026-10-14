@@ -39,20 +39,7 @@ Each run uses `numpy.random.default_rng(seed)`.
 | Held-out replication | 100-119 |
 | Independent benchmark | 200-219 |
 
-## Results
 
-Per-seed result files are stored in `results/`. They are the files written by the notebook (the `e2_*`, `e3_*`, `e4_*`, `e5_*` and `r1_*` CSV files, plus the weight and ranking tables).
-
-| Paper item | Notebook section |
-|---|---|
-| Fig. 2 (weights), Table 13 | (fill in) |
-| Tables 4 and 5 (main, held-out) | (fill in) |
-| Tables 6, 7, 15, 16 (aggregation, independent) | (fill in) |
-| Table 8, Table 9, Fig. 5 (real-data rankings) | (fill in) |
-| Tables 10, 17 (paired tests) | (fill in) |
-| Table 11 (weight robustness) | (fill in) |
-| Table 14, Fig. 4 (severity grid) | (fill in) |
-| Appendix G (Lu and Yuan reproduction) | (fill in) |
 
 ## License
 
