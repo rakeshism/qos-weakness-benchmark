@@ -2,5 +2,10 @@
 __pycache__/
 .venv/
 .DS_Store
+# QWS data: license does not permit redistribution
+qws.xls
+qws.csv
+qws2.txt
+qws2.zip
 data/qws.csv
 data/qws.xls
