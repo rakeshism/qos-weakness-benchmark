@@ -1,6 +1,6 @@
 # QoS weakness benchmark
 
-Code for the paper **"Hidden weaknesses in QoS-based service ranking: a known-answer benchmark of normalization and aggregation choices"** (Kumar, Kumari, Mohapatra, Jyotish, Kumar).
+Code for the paper **"Cost-criterion normalization governs weakness detection in compensatory QoS ranking: a planted-weakness benchmark of TOPSIS and VIKOR"** (Kumar, Kumari, Mohapatra, Jyotish, Tomar).
 
 The benchmark adds services with planted weaknesses of known type and severity to the 2,500 services of QWS v2.0, then varies normalization and aggregation one at a time under fixed weights.
 
@@ -19,11 +19,16 @@ The experiments in the paper were run on a laptop (Intel Core i7-14650HX, 16 GB 
 
 ## Data
 
-The QWS v2.0 dataset is not redistributed here. Obtain it from its original authors (Al-Masri and Mahmoud, ICCCN 2007) and save it as `data/qws.csv`. See `data/README.md` for the expected columns.
+The QWS v2.0 dataset is not redistributed here, because its license does not permit it.
+
+1. Download `qws2.zip` from https://qwsdata.github.io/qws2.html and unzip `qws2.txt` into the repository folder.
+2. Run `python make_qws_2500.py qws2.txt qws.xls`.
+
+The script writes `qws.xls` (a comma-separated file, despite its extension), the exact 2,500-record file analysed in the paper, and checks its SHA-256 fingerprint. See `data/README.md` for details.
 
 ## How to run
 
-1. Place the data file as described above.
+1. Create `qws.xls` as described above, in the same folder as the notebook.
 2. Open `benchmark_experiments.ipynb` in Jupyter.
 3. Choose Kernel > Restart & Run All.
 
