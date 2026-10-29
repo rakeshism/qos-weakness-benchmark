@@ -1,6 +1,6 @@
 # QoS weakness benchmark
 
-Code for the paper **"Cost-criterion normalization governs weakness detection in compensatory QoS ranking: a planted-weakness benchmark of TOPSIS and VIKOR"** (Kumar, Kumari, Mohapatra, Jyotish, Tomar).
+Code for the paper **"Cost-criterion normalization governs weakness detection in compensatory QoS ranking: a planted-weakness benchmark of TOPSIS and VIKOR"** (Kumar, Kumari, Jyotish, Tomar).
 
 The benchmark adds services with planted weaknesses of known type and severity to the 2,500 services of QWS v2.0, then varies normalization and aggregation one at a time under fixed weights.
 
