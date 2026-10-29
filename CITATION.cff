@@ -7,11 +7,10 @@ authors:
     given-names: Rakesh Ranjan
   - family-names: Kumari
     given-names: Binita
-  - family-names: Mohapatra
-    given-names: Soumya Snigdha
-  - family-names: Jyotish
-    given-names: Nand Kumar
   - family-names: Tomar
     given-names: Abhinav
+  - family-names: Jyotish
+    given-names: Nand Kumar
+
 repository-code: "https://github.com/rakeshism/qos-weakness-benchmark"
 license: MIT
